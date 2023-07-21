@@ -58,7 +58,7 @@ const ConversationPage = () => {
     <div>
       <Heading
         title="Conversation"
-        description="Most adv convo model"
+        description="Ask me anything✌️"
         icon={MessageSquare}
         iconColor="text-violet-500"
         bgColor="bg-violet-500/10"
