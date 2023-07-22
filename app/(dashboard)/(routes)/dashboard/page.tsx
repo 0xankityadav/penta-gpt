@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 
-const tools = [
+export const tools = [
   {
     label: "Conversation",
     icon: MessageSquare,
