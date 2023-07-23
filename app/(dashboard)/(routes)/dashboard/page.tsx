@@ -1,4 +1,4 @@
-// "use client";
+"use client";
 
 import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
