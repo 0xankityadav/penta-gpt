@@ -13,20 +13,20 @@ const testimonials = [
   {
     name: "Ankit",
     avatar: "A",
-    title: "Designer",
+    title: "Front End Developer",
     description: "I use this daily for generating new photos for my projects!",
   },
   {
     name: "Dev",
     avatar: "D",
-    title: "CFO",
+    title: "Creative Designer",
     description:
       "This app has changed my life, cannot imagine working without it!",
   },
   {
     name: "Anubhav",
     avatar: "A",
-    title: "CEO",
+    title: "Entrepreneur",
     description:
       "This app has helped me in building my startup, definitely worth the premium subscription!",
   },
@@ -38,7 +38,7 @@ export const LandingContent = () => {
       <h2 className="text-center text-4xl text-white font-extrabold mb-10">
         Testimonials
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
         {testimonials.map((item) => (
           <Card
             key={item.description}
