@@ -36,7 +36,7 @@ export async function GET() {
       cancel_url: settingsUrl,
       payment_method_types: ["card"],
       mode: "subscription",
-      billing_address_collection: "auto",
+      billing_address_collection: "required",
       customer_email: user.emailAddresses[0].emailAddress,
       line_items: [
         {
